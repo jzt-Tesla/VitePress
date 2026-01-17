@@ -1,0 +1,40 @@
+{
+  "hash": "3dad3886",
+  "configHash": "a656cfaa",
+  "lockfileHash": "f4c27ad9",
+  "browserHash": "007ca565",
+  "optimized": {
+    "vue": {
+      "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "d7cc9eb9",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "1fc4892d",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "531031d3",
+      "needsInterop": false
+    },
+    "nprogress-v2/dist/index.js": {
+      "src": "../../../node_modules/nprogress-v2/dist/index.js",
+      "file": "nprogress-v2_dist_index__js.js",
+      "fileHash": "2ef31973",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-QE257C5J": {
+      "file": "chunk-QE257C5J.js"
+    },
+    "chunk-JVWSFFO4": {
+      "file": "chunk-JVWSFFO4.js"
+    }
+  }
+}

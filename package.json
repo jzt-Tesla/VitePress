@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev --host 0.0.0.0 --port 5173",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "docs:deploy": "vitepress build && cd .vitepress/dist && rm -rf .git && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/hejinyo/blog.git main:gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nprogress-v2": "^1.1.10",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-permalink": "^1.2.1",
+    "vitepress-plugin-sidebar-resolve": "^1.2.1",
+    "vue": "^3.5.21"
+  }
+}
