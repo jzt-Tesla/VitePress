@@ -169,8 +169,8 @@ export default defineConfig({
         search: {
             provider: 'algolia',
             options: {
-                appId: '',
-                apiKey: '',
+                appId: 'LKWXVW2HV9',
+                apiKey: '2a0b483f5148d629b7948f90576163da',
                 indexName: 'doc',
                 // 重点：在这里添加中文翻译
                 placeholder: '搜索',
